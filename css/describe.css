@@ -1,0 +1,101 @@
+* {
+  color: rgba(255, 255, 255, 0.637);
+  /* color: linear-gradient(90deg, rgba(226,226,235,1) 0%, rgba(210,59,197,1) 93%); */
+  font: 1rem;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  font-family: cursive, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url("../img/wallpaperflare.com_wallpaper\ \(1\).jpg ")
+    center/cover fixed ;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 30px;
+  color: rosybrown;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #d23bc5;
+}
+
+/* #row3 {
+  display: flex;
+} */
+
+h2 {
+  font-size: 25px;
+  padding-left: 15px;
+  color: rgb(195, 0, 255);
+  margin-bottom: 20px;
+}
+h3 {
+  padding-left: 35px;
+
+  font-size: 20px;
+  display: block;
+  color: rgb(107, 47, 80);
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #eeaed2;
+}
+h5{
+  font-size: 18px;
+}
+section#personalstrength {
+  display: block;
+
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+#contact {  
+  /* padding-left: 0px; */
+  padding-top: 100px;
+}
+
+section#education {
+  display: block;
+  padding-left: 0px;
+  padding-top: 50px;
+
+}
+section#experience {
+  display: block;
+  padding-left: 0px;
+}
+
+.event ul li.job {
+  /* border-top: 1px solid white; */
+
+  
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#row1 .right {
+
+  position: relative;
+}
+
+#name {
+  position: absolute;
+  right: 0;
+  bottom: 3rem;
+  width: 110%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
